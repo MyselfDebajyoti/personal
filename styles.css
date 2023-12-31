@@ -1,0 +1,58 @@
+h1{font-family: 'Bungee Spice', sans-serif;
+
+}
+.lead{
+  font-weight:bolder;
+
+
+}
+{
+  background-color: black;
+}
+{
+  height:100%;
+  background-color: blue;
+  
+}
+.btn{
+  border-radius: 15px;
+  
+}
+.nav-item{
+  padding-right: 10px;
+}
+ .gradient{
+  background-image:url("./images/background\ drawing.jpg");
+  height: 70%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-left: 50px;
+ }  
+
+{
+  background:linear-gradient(90deg, rgba(0,0,0,1) 24%, rgba(27,204,155,1) 63%, rgba(0,45,54,1) 100%);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.icon{
+  height: 50px;
+  padding-right: 10px;
+}
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 24%, rgba(27,204,155,1) 63%, rgba(0,45,54,1) 100%);
